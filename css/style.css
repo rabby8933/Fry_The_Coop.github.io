@@ -63,6 +63,10 @@ body{
 .nav-link{
    color: white;
 }
+.nav-link:focus,
+.nav-link:hover {
+   color: rgb(255 255 255 / 86%);
+}
 /********************/
 .welcome-contecnt{
    background: rgba(255, 255, 255, 0.7);
@@ -531,6 +535,7 @@ body{
    .navbar-collapse{ text-align: right; margin: 15px 0; }
    .ms-auto { background: white; padding: 10px 0 20px; }
    .nav-link { color: #2c3a42; border-bottom: 2px solid; }
+   .nav-link:focus,.nav-link:hover { color: rgb(0 0 0 / 86%); }
    .flavours { padding: 75px 50px; }
    .flavours p { padding: 0 0 10px; }
    .flavours .flavours-img { width: 100%; }
